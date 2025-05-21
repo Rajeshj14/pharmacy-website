@@ -6,7 +6,11 @@ import { Box, Typography, Button, InputBase, Paper, Snackbar, Alert } from "@mui
 export default function NewsletterSection() {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
-  const [snackbar, setSnackbar] = useState({
+  const [snackbar, setSnackbar] = useState<{
+    open: boolean;
+    message: string;
+    severity: "success" | "error" | "info" | "warning";
+  }>({
     open: false,
     message: "",
     severity: "success", // or "error"
