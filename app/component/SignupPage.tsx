@@ -111,7 +111,7 @@ export default function NewsletterSection() {
             Sign Up For Newsletter
           </Typography>
           <Typography sx={{ fontSize: "18px", mt: 1 }}>
-            Join 60,000+ Subscribers and get a new discount coupon every saturday
+            Join 60,000+ Subscribers and get a new discounts coupon every saturday
           </Typography>
         </Box>
 
