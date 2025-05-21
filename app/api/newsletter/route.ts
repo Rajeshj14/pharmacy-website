@@ -4,7 +4,7 @@ import  prisma  from '../../../lib/prisma';
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    console.log('📩 Received body:', body);
+    console.log('Received body:', body);
 
     const { email } = body;
 
@@ -26,7 +26,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ message: 'Thank you for your submission', subscriber }, { status: 201 });
   } catch (error: any) {
-    console.error('❌ API Route Error:', error); // <--- add this
+    console.error(' API Route Error:', error); // <--- add this
     return NextResponse.json({ message: 'Internal server error', error: error.message }, { status: 500 });
   }
 }
