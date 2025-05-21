@@ -187,7 +187,14 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import PinterestIcon from "@mui/icons-material/Pinterest";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
-const team = [
+type TeamMember = {
+  name: string;
+  role: string;
+  image: string;
+  socials: boolean;
+};
+
+const team: TeamMember[] = [
   {
     name: "Vivienne Lewis",
     role: "Founder",
@@ -215,7 +222,7 @@ const iconColors = {
   LinkedIn: "#47A2A3",
 };
 
-const TeamCard = ({ member }) => (
+const TeamCard = ({ member }: { member: TeamMember }) => (
   <Box
     sx={{
       width: "100%",
@@ -278,7 +285,12 @@ const TeamCard = ({ member }) => (
   </Box>
 );
 
-const HoverIcon = ({ icon, color }) => (
+type HoverIconProps = {
+  icon: React.ReactNode;
+  color: string;
+};
+
+const HoverIcon = ({ icon, color }: HoverIconProps) => (
   <IconButton
     sx={{
       backgroundColor: "#fff",

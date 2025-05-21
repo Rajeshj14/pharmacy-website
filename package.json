@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/material-ui": "^0.21.18",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

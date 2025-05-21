@@ -152,22 +152,22 @@ const WhyChooseUsSection = () => {
         display: 'flex',
         flexDirection: { xs: 'column', md: 'row' },
         px: { 
-          xs: 2,   // Mobile: 16px
-          sm: 4,    // Tablet: 32px
-          md: 6,    // Laptop: 48px
-          lg: 10    // Desktop: 80px
+          xs: 2,    
+          sm: 4,    
+          md: 6,     
+          lg: 10    
         },
         py: { 
-          xs: 6,    // Mobile: 32px
-          sm: 7,    // Tablet: 48px
-          md: 8     // Laptop/Desktop: 64px
+          xs: 6,   
+          sm: 7,    
+          md: 8     
         },
         backgroundColor: '#fff',
         gap: { 
-          xs: 4,    // Mobile: 32px
-          sm: 6,    // Tablet: 48px
-          md: 8,    // Laptop: 64px
-          lg: 10    // Desktop: 80px
+          xs: 4,   
+          sm: 6,   
+          md: 8,   
+          lg: 10   
         },
         maxWidth: 1920,
         margin: '0 auto'
@@ -183,9 +183,9 @@ const WhyChooseUsSection = () => {
           sx={{ 
             color: '#4f4f4f',
             fontSize: {
-              xs: '0.7rem',  // Mobile
-              sm: '0.75rem', // Tablet
-              md: '0.8rem'   // Laptop/Desktop
+              xs: '0.7rem', 
+              sm: '0.75rem', 
+              md: '0.8rem'  
             }
           }}
         >
@@ -198,10 +198,10 @@ const WhyChooseUsSection = () => {
           sx={{ 
             mb: 2,
             fontSize: {
-              xs: '1.5rem',  // Mobile: 24px
-              sm: '1.75rem', // Tablet: 28px
-              md: '2rem',    // Laptop: 32px
-              lg: '2.125rem' // Desktop: 34px
+              xs: '1.5rem',  
+              sm: '1.75rem', 
+              md: '2rem',    
+              lg: '2.125rem'
             },
             lineHeight: {
               xs: 1.3,
@@ -218,9 +218,9 @@ const WhyChooseUsSection = () => {
             color: '#666', 
             mb: 4,
             fontSize: {
-              xs: '0.875rem', // Mobile: 14px
-              sm: '0.9375rem', // Tablet: 15px
-              md: '1rem'       // Laptop/Desktop: 16px
+              xs: '0.875rem',
+              sm: '0.9375rem', 
+              md: '1rem'       
             }
           }}
         >
@@ -235,16 +235,16 @@ const WhyChooseUsSection = () => {
               display: 'flex', 
               mb: 3, 
               alignItems: 'flex-start',
-              flexDirection: { xs: 'column', sm: 'row' } // Stack on mobile, row on larger
+              flexDirection: { xs: 'column', sm: 'row' } 
             }}
           >
             <Avatar
               sx={{
                 bgcolor: '#219E9D',
                 width: { 
-                  xs: 40,  // Mobile: 40px
-                  sm: 44,  // Tablet: 44px
-                  md: 48   // Laptop/Desktop: 48px
+                  xs: 40,  
+                  sm: 44, 
+                  md: 48   
                 },
                 height: { 
                   xs: 40,
@@ -257,9 +257,9 @@ const WhyChooseUsSection = () => {
             >
               <CheckCircleIcon sx={{ 
                 fontSize: {
-                  xs: 24,  // Mobile
-                  sm: 26,  // Tablet
-                  md: 30   // Laptop/Desktop
+                  xs: 24,  
+                  sm: 26,  
+                  md: 30   
                 } 
               }} />
             </Avatar>
@@ -269,9 +269,9 @@ const WhyChooseUsSection = () => {
                 fontWeight="bold"
                 sx={{
                   fontSize: {
-                    xs: '1rem',    // Mobile: 16px
-                    sm: '1.0625rem', // Tablet: 17px
-                    md: '1.125rem'  // Laptop/Desktop: 18px
+                    xs: '1rem',    
+                    sm: '1.0625rem', 
+                    md: '1.125rem' 
                   }
                 }}
               >
@@ -283,8 +283,8 @@ const WhyChooseUsSection = () => {
                   color: '#555', 
                   mt: 0.5,
                   fontSize: {
-                    xs: '0.8125rem', // Mobile: 13px
-                    sm: '0.875rem'    // Tablet+: 14px
+                    xs: '0.8125rem', 
+                    sm: '0.875rem'    
                   }
                 }}
               >
@@ -295,7 +295,7 @@ const WhyChooseUsSection = () => {
                   borderBottom: '1px dashed #ccc', 
                   mt: 2, 
                   mb: 2,
-                  ml: { xs: 0, sm: '56px' } // Align with text on larger screens
+                  ml: { xs: 0, sm: '56px' } 
                 }} />
               )}
             </Box>
@@ -308,14 +308,14 @@ const WhyChooseUsSection = () => {
         flex: 1,
         position: 'relative',
         height: {
-          xs: '300px', // Mobile
-          sm: '400px', // Tablet
-          md: '500px', // Laptop
-          lg: '600px'  // Desktop
+          xs: '300px', 
+          sm: '400px', 
+          md: '500px', 
+          lg: '600px'  
         },
         mt: {
-          xs: 2,      // Mobile
-          sm: 0        // Tablet+ no top margin
+          xs: 2,   
+          sm: 0        
         }
       }}>
         <Box
@@ -337,43 +337,43 @@ const WhyChooseUsSection = () => {
             position: 'absolute',
             bgcolor: '#dce286',
             top: {
-              xs: 'auto',    // Mobile
-              sm: 'auto',    // Tablet
-              md: '440px',   // Laptop
-              lg: '510px'    // Desktop
+              xs: 'auto',    
+              sm: 'auto',   
+              md: '440px',   
+              lg: '510px'    
             },
             bottom: {
-              xs: '-40px',   // Mobile
-              sm: '-50px',   // Tablet
-              md: 'auto'      // Laptop/Desktop
+              xs: '-40px',   
+              sm: '-50px',   
+              md: 'auto'      
             },
             right: {
-              xs: '20px',     // Mobile
-              sm: '0px',    // Tablet
-              md: '-40px',    // Laptop
-              lg: '-60px'     // Desktop
+              xs: '20px',    
+              sm: '0px',    
+              md: '-40px',    
+              lg: '-60px'     
             },
             left: {
-              xs: '20px',     // Mobile
-              sm: 'auto'      // Tablet+
+              xs: '20px',    
+              sm: 'auto'      
             },
             px: {
-              xs: 1.5,       // Mobile: 12px
-              sm: 2,         // Tablet: 16px
-              md: 2,        // Laptop: 16px
-              lg: 2         // Desktop: 16px
+              xs: 1.5,       
+              sm: 2,        
+              md: 2,         
+              lg: 2          
             },
             py: {
-              xs: 2,         // Mobile: 16px
-              sm: 3,         // Tablet: 24px
-              md: 4          // Laptop/Desktop: 32px
+              xs: 2,          
+              sm: 3,          
+              md: 4          
             },
             borderRadius: 2,
             maxWidth: {
-              xs: 'calc(100% - 40px)', // Mobile
-              sm: '390px',             // Tablet
-              md: '350px',             // Laptop
-              lg: '400px'              // Desktop
+              xs: 'calc(100% - 40px)',  
+              sm: '390px',             
+              md: '350px',             
+              lg: '400px'               
             },
             display: 'flex',
             alignItems: 'center'
@@ -386,10 +386,10 @@ const WhyChooseUsSection = () => {
               color: '#1d1d1d', 
               mr: 2,
               fontSize: {
-                xs: '1.5rem',  // Mobile: 24px
-                sm: '1.75rem',  // Tablet: 28px
-                md: '2rem',    // Laptop: 32px
-                lg: '2.125rem'  // Desktop: 34px
+                xs: '1.5rem',   
+                sm: '1.75rem',   
+                md: '2rem',     
+                lg: '2.125rem'   
               }
             }}
           >
@@ -402,9 +402,9 @@ const WhyChooseUsSection = () => {
               sx={{ 
                 color: '#1d1d1d',
                 fontSize: {
-                  xs: '0.875rem',  // Mobile: 14px
-                  sm: '0.9375rem', // Tablet: 15px
-                  md: '1rem'       // Laptop/Desktop: 16px
+                  xs: '0.875rem',   
+                  sm: '0.9375rem',  
+                  md: '1rem'        
                 }
               }}
             >
@@ -415,9 +415,9 @@ const WhyChooseUsSection = () => {
               sx={{ 
                 color: '#444',
                 fontSize: {
-                  xs: '0.75rem',   // Mobile: 12px
-                  sm: '0.8125rem', // Tablet: 13px
-                  md: '0.875rem'  // Laptop/Desktop: 14px
+                  xs: '0.75rem',    
+                  sm: '0.8125rem',  
+                  md: '0.875rem'   
                 }
               }}
             >
