@@ -1,120 +1,4 @@
-// import React from 'react';
-// import { Box, Grid, Typography, Avatar, Paper } from '@mui/material';
-// import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
-// const features = [
-//   {
-//     title: 'Honesty & transparency',
-//     description:
-//       'Inceptos viverra dignissim rhoncus consectetur diam vivamus platea. Commodo lectus arcu habitant mus tempus nulla ex sociosqu eros.',
-//   },
-//   {
-//     title: 'Expert Pharmacist',
-//     description:
-//       'Inceptos viverra dignissim rhoncus consectetur diam vivamus platea. Commodo lectus arcu habitant mus tempus nulla ex sociosqu eros.',
-//   },
-//   {
-//     title: 'Extra Discount',
-//     description:
-//       'Inceptos viverra dignissim rhoncus consectetur diam vivamus platea. Commodo lectus arcu habitant mus tempus nulla ex sociosqu eros.',
-//   },
-// ];
-
-// const WhyChooseUsSection = () => {
-//   return (
-//     <Box sx={{ px: { xs: 2, md: 10 }, py: 8, backgroundColor: '#fff', display:'flex',flexDirection:"row" }}>
-//       <Grid container spacing={4} alignItems="center" width={'50%'}>
-//         {/* Left Side Text */}
-//         <Grid item xs={12} md={7}>
-//           <Typography variant="overline" sx={{ color: '#4f4f4f' }}>
-//             WHY CHOOSE US
-//           </Typography>
-//           <Typography variant="h4" fontWeight="bold" sx={{ mb: 2 }}>
-//             We care beyond what your doctors have prescribed
-//           </Typography>
-//           <Typography variant="body1" sx={{ color: '#666', mb: 4 }}>
-//             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-//           </Typography>
-
-//           {features.map((feature, index) => (
-//             <Box key={index} sx={{ display: 'flex', mb: 3, alignItems: 'flex-start' }}>
-//               <Avatar
-//                 sx={{
-//                   bgcolor: '#219E9D',
-//                   width: 48,
-//                   height: 48,
-//                   mr: 2,
-//                 }}
-//               >
-//                 <CheckCircleIcon sx={{ fontSize: 30 }} />
-//               </Avatar>
-//               <Box>
-//                 <Typography variant="subtitle1" fontWeight="bold">
-//                   {feature.title}
-//                 </Typography>
-//                 <Typography variant="body2" sx={{ color: '#555', mt: 0.5 }}>
-//                   {feature.description}
-//                 </Typography>
-//                 {index < features.length - 1 && (
-//                   <Box sx={{ borderBottom: '1px dashed #ccc', mt: 2, mb: 2 }} />
-//                 )}
-//               </Box>
-//             </Box>
-//           ))}
-//         </Grid>
-
-//         {/* Right Side Image + Experience Badge */}
-//         <Grid item xs={12} md={5} sx={{ position: 'relative'}}>
-//           <Box
-//             component="img"
-//             src="/whywechooseus.jpg" // Place this image in your public/ folder and name accordingly
-//             alt="Pharmacist"
-//             sx={{
-//               width: '100%',
-//               height: 'auto',
-//               borderRadius: '12px',
-//               boxShadow: 3,
-//             }}
-//           />
-
-//           {/* Experience Badge */}
-//           <Paper
-//             elevation={3}
-//             sx={{
-//               position: 'absolute',
-//               bottom: 16,
-//               left: 16,
-//               bgcolor: '#dce286',
-//               px: 3,
-//               py: 2,
-//               borderRadius: 2,
-//               display: 'flex',
-//               alignItems: 'center',
-//             }}
-//           >
-//             <Typography
-//               variant="h4"
-//               fontWeight="bold"
-//               sx={{ color: '#1d1d1d', mr: 2 }}
-//             >
-//               15+
-//             </Typography>
-//             <Box>
-//               <Typography fontWeight="bold" sx={{ color: '#1d1d1d' }}>
-//                 Years Experience
-//               </Typography>
-//               <Typography variant="body2" sx={{ color: '#444' }}>
-//                 Accumsan nibh vel integer eget auctor per maecenas himenaeos.
-//               </Typography>
-//             </Box>
-//           </Paper>
-//         </Grid>
-//       </Grid>
-//     </Box>
-//   );
-// };
-
-// export default WhyChooseUsSection;
 "use client"
 
 import React from 'react';
@@ -135,7 +19,7 @@ const features = [
   {
     title: 'Extra Discount',
     description:
-      'Inceptos viverra dignissim rhoncus consectetur diam vivamus platea. Commodo lectus arcu habitant mus tempus nulla ex sociosqu eros.',
+      'Inceptos viverras dignissim rhoncus consectetur the diam vivamus platea. Commodo lectus arcu habitant mus tempus nulla ex sociosqu eros.',
   },
 ];
 
