@@ -147,7 +147,7 @@ export default function HeroBanner() {
         >
           <Image
             src="/Doctor-bg.jpg"
-            alt="Pharmacy background"
+            alt="Pharmacy backgroundss"
             fill
             style={{ objectFit: 'cover' }}
             priority
